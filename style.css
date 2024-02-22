@@ -156,8 +156,10 @@ header.header-active .navbar a{
     color:#fff;
 }
 
+
+
 .about .row{
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,6 +202,7 @@ header.header-active .navbar a{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
 
 .service .heading{
@@ -449,7 +452,7 @@ header.header-active .navbar a{
     background:var(--orange);
 }
 
-footer {
+/* footer {
     background:linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(https://imagizer.imageshack.com/img923/2198/HOZDpV.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -508,9 +511,31 @@ footer {
 
 .footerbottom p {
     color: white;
-}
+} */
 
-
+.footer {
+    text-align: center;
+    margin-top: px;
+    border-top: 1px solid rgba(250, 250, 250, 0.15);
+    padding: 36px 0px;
+    background-color: #000;
+  }
+  .footer p {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+  }
+  .social-media{
+    margin: auto;
+    width: 50%;
+  }
+  .footer p a {
+    color: #f5a425;
+  }
+  .footer a{
+    margin: 10px;
+  }
 
 
 
